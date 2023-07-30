@@ -1,0 +1,39 @@
+  <b:if cond='data:view.isHomepage'>
+
+   <!-- Breaking Wrapper --> 
+ <div class='row' id='break-wrapper'>
+      <b:section id='break-section' maxwidgets='1' name='News Ticker' showaddelement='yes'>
+        <b:widget id='HTML200' locked='false' title='Ticker' type='HTML' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'>6/recent/ticker-posts</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+ <div class='clearfix'/>
+
+    <!-- Featured Wrapper -->
+    <div class='row' id='hot-wrapper'>
+      <b:section id='hot-section' maxwidgets='1' name='Hot Posts' showaddelement='yes'>
+        <b:widget id='HTML2' locked='false' title='Hot Widget' type='HTML' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'>random/hot-posts</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+ <div class='clearfix'/>
+ 
+  </b:if>
