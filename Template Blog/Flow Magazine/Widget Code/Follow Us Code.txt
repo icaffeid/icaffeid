@@ -1,0 +1,29 @@
+<ul class="social-counts modal-1 typo-white"><li>
+							<a href="https://www.facebook.com/" target="blank" class="social-facebook">
+								<span class="fa fa-facebook"></span>
+								<span class="followers-count">200</span>
+								<span class="follow-inner-text">Fans</span>
+								<span class="follow-redirect-text pull-right">Like</span>
+							</a>
+						</li><li>
+							<a href="https://twitter.com/" target="blank" class="social-twitter">
+								<span class="fa fa-twitter"></span>
+								<span class="followers-count">31,960</span>
+								<span class="follow-inner-text">Followers</span>
+								<span class="follow-redirect-text pull-right">Follow</span>
+							</a>
+						</li><li>
+							<a href="https://plus.google.com/" target="blank" class="social-google-plus">
+								<span class="fa fa-google-plus"></span>
+								<span class="followers-count">0</span>
+								<span class="follow-inner-text">Fans</span>
+								<span class="follow-redirect-text pull-right">Follow</span>
+							</a>
+						</li><li>
+							<a href="https://www.youtube.com/" target="blank" class="social-youtube">
+								<span class="fa fa-youtube"></span>
+								<span class="followers-count">18</span>
+								<span class="follow-inner-text">Subscribers</span>
+								<span class="follow-redirect-text pull-right">Subscribe</span>
+							</a>
+						</li></ul>
